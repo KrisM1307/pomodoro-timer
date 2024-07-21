@@ -76,4 +76,5 @@ resetButton.addEventListener('click', function() {
     clearInterval(timerId);
     timeLeft = initialTime;
     pomodoroTime.textContent = formatTime(timeLeft);
+    startButton.textContent = 'start';
 });
